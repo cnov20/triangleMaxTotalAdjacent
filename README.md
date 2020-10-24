@@ -7,7 +7,7 @@ the maximum total from top to bottom is 27.
 		      5 
 		    9   6 
 		  4   6   8 
-        0   7   1   5
+        	0   7   1   5
    
    I.e. 5 + 9 + 6 + 7 = 27
 

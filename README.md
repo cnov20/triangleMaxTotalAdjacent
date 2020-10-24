@@ -97,7 +97,7 @@ Explanation : 8 + 4 + 6 + 1 = 19
 2. Binary Search — for each line to find max of each line/set of numbers within overall data set (?)
 3. Recursion — given the triangle’s tree-like structure, this may help to assemble this as a binary-tree/binary-search-tree to parse
 4. Dynamic Programming — “Sliding-window” type of approach of determining max of adjacent elements and repeating the process as you make your way through the data-set / text-file.
-- [ ] Dynamic Programming — slice/delete/remove values from data-set as they are accounted for / added to the running and/or max total, in conjunction with or to facilitate the “sliding window” approachmfiemfewfew
+- [ ] Dynamic Programming — slice/delete/remove values from data-set as they are accounted for / added to the running and/or max total, in conjunction with or to facilitate the “sliding window” approach.
 
 # Simple Case / Example Provided
 1. Initialize array to give the data some structure 

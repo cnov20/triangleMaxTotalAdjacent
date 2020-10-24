@@ -1,14 +1,14 @@
 # triangleMaxTotalAdjacent
 Triangle Max Total (Top to Bottom) via Adjacent Elements -- Coding Exercise
 
-Triangle 
-
 By starting at the top of the triangle and moving to adjacent numbers on the row below, the maximum total from top to bottom is 27. 
 
 	     5 
 	   9  6 
 	4   6   8 
-       0    7   1   5  I.e. 5 + 9 + 6 + 7 = 27
+       0    7   1   5
+   
+   I.e. 5 + 9 + 6 + 7 = 27
 
 Write a program in a language of your choice to find the maximum total from top to bottom in triangle.txt, a text file containing a triangle with 100 rows. 
 
@@ -93,10 +93,10 @@ Possible Approaches to use:
 - [ ] Dynamic Programming — slice/delete/remove values from data-set as they are accounted for / added to the running and/or max total, in conjunction with or to facilitate the “sliding window” approachmfiemfewfew
 
 Simple Case / Example Provided
-1. Initialize array to give data structure 
+1. Initialize array to give the data some structure 
 2. Initialize maxTotalSum variable
 3. Set maxTotalSum var to first number of triangle / array — maxSumTotal = array[0] (e.g. 5, in the example provided)
-4. 
+4. Run through steps 4-11 or 6-11 above
 
 Test Cases(s) / Edge Cases
 1. Account for “0” values

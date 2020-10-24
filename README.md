@@ -26,7 +26,7 @@ Output : 23
 
 Explanation : 3 + 7 + 4 + 9 = 23 
 
-#2 — Negatives Included — and elements that are equal in value
+# 2 — Negatives Included — and elements that are equal in value
 
 Input :
    8
@@ -40,7 +40,7 @@ Explanation : 8 + 4 + 6 + 1 = 19
 
 
 
-Problem-Solving Approach / Process
+# Problem-Solving Approach / Process
 
 1. Review problem and identify / re-read Daniela’s framing of the purpose of the exercise.
 2. Deduce what exactly the overarching problem is.
@@ -53,7 +53,7 @@ Problem-Solving Approach / Process
 9. Review and reflect on what is working, what isn’t, and why.
 
 
-Solution / Identified sub-tasks to solve the Triangle Problem — 
+# Solution / Identified sub-tasks to solve the Triangle Problem — 
 
 1. Define what exactly “adjacent” means in the context of this specific exercise/program
 2. Place numbers in some sort of organized, sortable(?) data structure for parsing through data, looping, comparing of values, etc.
@@ -71,7 +71,7 @@ Solution / Identified sub-tasks to solve the Triangle Problem —
 14. If so, terminate loop, terminate program, etc.
 15. Return finalMaxTotal variable value (e.g. 27, in this instance)
 
-Pseudocode — 
+# Pseudocode — 
 
 1. Initialize chosen data structure for storing, organizing, sorting(?) data-set.
 2. Start with initial max sum equal to the first value in your data set / data structure
@@ -79,28 +79,28 @@ Pseudocode —
 4. Possible multiple levels of loops / multiple levels of array-dimensions needed for items within each line
 5. Run through steps 4-11 or 6-11 above
 
-Possible Data Structures to use:
+# Test Cases(s) / Edge Cases
+1. Account for “0” values
+2. Account for negatives
+3. Account for “bad” data / “bad” user input
+4.  Identify invalid elements of data — Add helper function to validate data-set (numbers only, no strings, no objects, etc.)
+5.  “Clean” / scrub data — Add helper function to remove invalid elements/data and re-arrange elements to keep original/triangle structure in place, and original order of elements — both line by line and within each line
+
+# Possible Data Structures to use:
 	1. Array (sorted / unsorted / key-value pairs)
 	2. Object
 	3. Hash Table
 	4. Tree — Binary-tree
 
-Possible Approaches to use:
+# Possible Approaches to use:
 1. Brute-force — iterate through all possible paths and keep running total based on adding of elements, keep max total as well, compare the two, until end of the data set / text file, and finally — return (what should be) the max value of the data set.
 2. Binary Search — for each line to find max of each line/set of numbers within overall data set (?)
 3. Recursion — given the triangle’s tree-like structure, this may help to assemble this as a binary-tree/binary-search-tree to parse
 4. Dynamic Programming — “Sliding-window” type of approach of determining max of adjacent elements and repeating the process as you make your way through the data-set / text-file.
 - [ ] Dynamic Programming — slice/delete/remove values from data-set as they are accounted for / added to the running and/or max total, in conjunction with or to facilitate the “sliding window” approachmfiemfewfew
 
-Simple Case / Example Provided
+# Simple Case / Example Provided
 1. Initialize array to give the data some structure 
 2. Initialize maxTotalSum variable
 3. Set maxTotalSum var to first number of triangle / array — maxSumTotal = array[0] (e.g. 5, in the example provided)
 4. Run through steps 4-11 or 6-11 above
-
-Test Cases(s) / Edge Cases
-1. Account for “0” values
-2. Account for negatives
-3. Account for “bad” data / “bad” user input
-4.  Identify invalid elements of data — Add helper function to validate data-set (numbers only, no strings, no objects, etc.)
-5.  “Clean” / scrub data — Add helper function to remove invalid elements/data and re-arrange elements to keep original/triangle structure in place, and original order of elements — both line by line and within each line

@@ -69,7 +69,8 @@ function findAdjacentMax (array) {
       const rightAdjacentElem = array[i + 1][j + 1]
 
       // Find max at each mini-triangle (current element and two adjacent elements)
-      // Then set to , using this as
+      // Then set result of each mini-max function call to corresponding position in result array, 
+      // using this as a running total/build-up towards final total of entire triangle
       runningMax = findAdjacentMiniMax(currentElement, resultArray[j], resultArray[j + 1])
       resultArray[j] = runningMax
     }
